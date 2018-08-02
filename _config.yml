@@ -5,7 +5,20 @@ description:         'Linux enthusiast. Tinkerer. Love me a challenge.'
 url:                 https://mbtamuli.github.io/
 baseurl:             ''
 paginate:            5
+permalink:           /:categories/:title/
 future:              true
+
+markdown: kramdown
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
 
 # About/contact
 author:
@@ -14,14 +27,22 @@ author:
   email:             mbtamuli@gmail.com
 
 # Custom vars
-version:             0.0.1
+version:             0.0.2
 
 # Google Analytics
 analytics:
-  provider               : google
   google:
     tracking_id          : 'UA-123129368-1'
 
 plugins:
   - jekyll-paginate
+  - jekyll-gist
   - jemoji
+
+collections:
+  cli:
+    output: true
+    permalink: /cli/:path/
+    title: CLI
+
+exclude:             ['README.md', 'LICENSE.md', 'Gemfile*']
