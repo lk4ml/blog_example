@@ -1,0 +1,76 @@
+---
+permalink: /.well-known/keybase.txt
+---
+==================================================================
+https://keybase.io/mbtamuli
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mriyamtamuli.ml
+  * I am mbtamuli (https://keybase.io/mbtamuli) on keybase.
+  * I have a public key with fingerprint 1A0B A9A3 096A 1839 D536  4064 9C11 F52C 0AAF 1EDB
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010123214a4593c8485c79b63713fec9ebc59eac78ab5a0711998f7d9eb4b45018b50a",
+      "fingerprint": "1a0ba9a3096a1839d53640649c11f52c0aaf1edb",
+      "host": "keybase.io",
+      "key_id": "9c11f52c0aaf1edb",
+      "kid": "010123214a4593c8485c79b63713fec9ebc59eac78ab5a0711998f7d9eb4b45018b50a",
+      "uid": "f96a0f1395e18809ed810f1c8d2d0419",
+      "username": "mbtamuli"
+    },
+    "service": {
+      "hostname": "mriyamtamuli.ml",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1533742393,
+  "expire_in": 157680000,
+  "prev": "1836202f5a8ebbbf97694a36cc150cc76bb464a9c9f910691aae77a9d177cb7a",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtknlMFFccx5djQ7hPqaQllLEpaTictzOzM7MVKWjR2pBQ7WE5XN7MvMUJ7MHu
+srAFgk2QQw1IQdGU1KNYlVrFYr1ARSgF3BiPJmLt1kK0IJCiUCiuRewMLf/1z75/
+Xt7vfb7f932/93b7eyh83L4Pnl6tXDbm7uYY4xSZef6JJRhnFOyYpgTLQ4sTyheQ
+xarNEwVMg+EABypCBUhIUizBMyRD8TTLqQkaEDrEs4jjKRZBnmYgR0GcBoBlGR0t
+SBskR1I4YDgKh1gcphMNuchsMosGq2QLIM5BFhI4q4aAIViBItQkriZZHgAdpeJx
+CHUACZwk3Gq0yAopHActKEE0SjVpoV2M9x/8/5y7cNFOJ+XEdYBgKQQYBmeRwABp
+zTOCSsBJwMqgBZkNUI8kWs9Zob4wX8TK4jCpahN5JDdWvskSYRbtUP8PlaDPl+Qm
+s9Fq5I350uZWq9Vk0chiq90k00WI0/7ro+VEgyC1UlLYkNkiGg2YBkgkbxVlY0AR
+BE2qCJaIw1CxSTQjrSgTFK1mcGnI5yCb/AAMoc5S4SodBRnEcZyOpdUsCQk1zwMK
+53lazXGkmoQsz+pYgKtZACGiacgKgKZ5jpZbY0EFBqNkzkpBYa5kahFzDdBaaEZY
+mU+NO+GpcPNRRIZHe2Y54OiampXKrvEQ49L/U7rLn0/h4x20VMnZETjv653QGDkx
+NygUzFbN5oWUV/QEZpkHdyetzR989XHNxEL9kaOPXqofc7r2jHRZDsZU7a0IT/HS
+n/RTvKMfWL/y3bNNsLPuz/v7SK3Wy6t+r6rAO7hvx76ipyM3nNGu2sThTU1HTcvX
+ja/zPAGdSR8urB7uSBufdd3YNeDVXrV/YG17y7KQZz8nl+RcCT62qvVM42hsyw/f
+DCgPBbge3i99nunuCO6zN7QWfebcv9zeG/QGOK/J3j60eX7K6Xfv85+qdp4lDlpq
+O6tn7wWQtkGznzHAqIo9V3pe+eCvUw8PTHaGRmlPha+/tMXT9eP04dpKXWrPRke3
+UgiKj2+PP9yzoW2kZaNPRnNHucdXYQ/2bOp4FgsuV72yavK6x1yy99REfNTHQTfT
+e22Xije8Pl6RFNDxbdJ3z/2Ov3fsabqzP/VFXLf+Ysovjao/bFGfjP1aeedaTDL7
+IqbuZPPtgrftObrMW4/f76vtSsm0Xrk7dGbm6ujxZt/+tIhUS2nEZs/pbQl08ge+
+XFRY4u2G0e2/NZ1OmynTXK2mPmJ3oshHF7Oz/V+LFz99OdSKjzT8/maweHpmsnDh
+QnZPd9uh0GrluQNzCiV3JEzYFj3bv6J9RQbZcWtNU8KTzMtT5RdI0xetT4bjHGGB
+b2Vc33lTTN9V/HUhbaftbWN3h+4k9nY1V9ZFcA2u+S+vndiS5/gb
+=ETBL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mbtamuli
+
+==================================================================
+
