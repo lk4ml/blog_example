@@ -27,6 +27,8 @@ certbot 127.0.0.1:4000
 [Add cert to firefox][2]
 
 ### curl
+
+curl -XGET -IL a.com --cacert $GOPATH/src/github.com/letsencrypt/boulder/test/test-root.pem
 [Add cert to ubuntu][3]
 
 
