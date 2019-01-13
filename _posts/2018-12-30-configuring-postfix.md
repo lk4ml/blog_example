@@ -58,9 +58,6 @@ certbot/dns-cloudflare certonly \
 --email admin@example.com \
 -d mail.example1.com
 
-# Exit from the container
-exit
-
 # Now we'll copy the generated certs to the proper location
 mkdir -p "$HOME/postfix/certs"
 cp /etc/letsencrypt/archive/mail.example.com/fullchain*.pem "$HOME/postfix/certs/mail.example.com.crt"
