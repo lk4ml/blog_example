@@ -43,9 +43,9 @@ EOF
 # domain for the mail
 docker run -it --rm \
 --name certbot \
--v "~/postfix/letsencrypt/etc:/etc/letsencrypt" \
--v "~/postfix/letsencrypt/lib:/var/lib/letsencrypt" \
--v "~/postfix/letsencrypt/cloudflare.ini:/tmp/cloudflare.ini:ro" \
+-v "$HOME/postfix/letsencrypt/etc:/etc/letsencrypt" \
+-v "$HOME/postfix/letsencrypt/lib:/var/lib/letsencrypt" \
+-v "$HOME/postfix/letsencrypt/cloudflare.ini:/tmp/cloudflare.ini:ro" \
 certbot/dns-cloudflare certonly \
 --agree-tos \
 --dns-cloudflare \
@@ -56,15 +56,15 @@ certbot/dns-cloudflare certonly \
 --renew-by-default
 --text \
 --email admin@example.com \
--d mail.example.com
+-d mail.example1.com
 
 # Exit from the container
 exit
 
 # Now we'll copy the generated certs to the proper location
-mkdir -p ~/postfix/certs
-cp /etc/letsencrypt/archive/mail.example.com/fullchain*.pem ~/postfix/certs/mail.example.com.crt
-cp /etc/letsencrypt/archive/mail.example.com/privkey*.pem ~/postfix/certs/mail.example.com.key
+mkdir -p "$HOME/postfix/certs"
+cp /etc/letsencrypt/archive/mail.example.com/fullchain*.pem "$HOME/postfix/certs/mail.example.com.crt"
+cp /etc/letsencrypt/archive/mail.example.com/privkey*.pem "$HOME/postfix/certs/mail.example.com.key"
 ```
 
 Now we'll generate the DKIM keys
@@ -72,21 +72,21 @@ Now we'll generate the DKIM keys
 ```bash
 docker run -it --rm \
 --name dkim \
--v "~/postfix/dkim-tools:/data" \
+-v "$HOME/postfix/dkim-tools:/data" \
 ubuntu \
 bash
 
 # The following command will run inside the container
 apt update && apt install opendkim-tools -y
 cd /data
-opendkim-genkey --selector=mail --domain=mail.example.com
+opendkim-genkey --selector=mail --domain=mail.example1.com
 
 # Exit from the container
 exit
 
-cp ~/postfix/dkim-tools/mail.private ~/postfix/keys/
-cp ~/postfix/dkim-tools/mail.txt ~/postfix/keys/
-cd ~/postfix/keys/
+cp "$HOME/postfix/dkim-tools/mail.private" "$HOME/postfix/keys/"
+cp "$HOME/postfix/dkim-tools/mail.txt" "$HOME/postfix/keys/"
+cd "$HOME/postfix/keys/"
 chown opendkim:opendkim mail.private
 ```
 
@@ -110,16 +110,23 @@ be replaced by the public IP address of the instance.
 v=spf1 a include:_spf.google.com ip4:1.1.1.1 ~all
 ```
 
+For multiple IP address, just repeat the `ip4` block.
+
+```
+v=spf1 a include:_spf.google.com ip4:1.1.1.1 ip4:2.2.2.2 ~all
+```
+
+
 Lastly, we'll run the postfix container itself and run it in daemon mode.
 
 ```bash
 docker run -p 25:25 \
 -e maildomain=mail.example.com -e smtp_user=user1:mySecretPassword \
--v ~/postfix/keys:/etc/opendkim/domainkeys \
--v ~/postfix/certs:/etc/postfix/certs \
+-v "$HOME/postfix/keys:/etc/opendkim/domainkeys" \
+-v "$HOME/postfix/certs:/etc/postfix/certs" \
 --name postfix -d catatnight/postfix
 ```
 
 We'll now you just need to point whatever application you use to port 25, with
-the SMTP credentials `user1:mySecretPassword`. Enjoy emails that have a good
-score and won't land up in spam!
+the SMTP credentials `user1:mySecretPassword`. Enjoy emails that have a [good score](
+https://www.mail-tester.com) and won't land up in spam!
