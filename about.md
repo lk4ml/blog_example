@@ -11,4 +11,6 @@ I consider myself a tinkerer and problem solver. I have a strong attachment to L
 
 Here is my [Résumé]({{ site.baseurl }}/public/resume.pdf)
 
+Here is my [GPG Key]({{ site.baseurl }}/public/gpg.txt)
+
 Thanks for reading!
