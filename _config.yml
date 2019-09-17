@@ -44,5 +44,9 @@ collections:
     output: true
     permalink: /cli/:path/
     title: CLI
+  notebook:
+    output: true
+    permalink: /notebook/:path/
+    title: Notebook
 
 exclude:             ['README.md', 'LICENSE.md', 'Gemfile*']
