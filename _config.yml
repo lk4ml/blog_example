@@ -23,7 +23,7 @@ kramdown:
 # About/contact
 author:
   name:              Mriyam Bikash Tamuli
-  url:               https://twitter.com/mbtamuli
+  twitter:           mbtamuli
   email:             mbtamuli@gmail.com
 
 # Custom vars
@@ -35,9 +35,14 @@ analytics:
     tracking_id          : 'UA-123129368-1'
 
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
   - jemoji
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+  collections:
+    notebook:
+      path: "/notebook.xml"
 
 collections:
   cli:
