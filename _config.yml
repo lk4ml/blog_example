@@ -41,7 +41,7 @@ plugins:
 feed:
   path: feed.xml
   collections:
-    notebook
+    - notebook
 
 collections:
   cli:
