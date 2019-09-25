@@ -39,7 +39,6 @@ plugins:
   - jekyll-feed
 
 feed:
-  path: feed.xml
   collections:
     - notebook
 
