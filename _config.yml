@@ -2,7 +2,7 @@
 title:               "mbtamuli's scratchpad"
 tagline:             'To infinity and beyond'
 description:         'Linux enthusiast. Tinkerer. Love me a challenge.'
-url:                 https://mbtamuli.github.io/
+url:                 "https://mbtamuli.github.io"
 baseurl:             ''
 paginate:            5
 permalink:           /:title/
@@ -39,10 +39,9 @@ plugins:
   - jekyll-feed
 
 feed:
-  path: atom.xml
+  path: feed.xml
   collections:
-    notebook:
-      path: "/notebook.xml"
+    notebook
 
 collections:
   cli:
