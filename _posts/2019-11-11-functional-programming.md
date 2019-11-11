@@ -4,9 +4,9 @@ title: Why Functional Programming Matters
 categories: random
 ---
 
-This article will be my take on why functional programming matters, largely with a focus on the paper with the same name[1], authored by John Hughes in the year 1984. For me, I was blissfully unaware, for all intents and purposes, of the functional programming language paradigm until quite recently. But once I started learning about the powers that functional programming provides, I started feeling a responsibility of learning about it well!
+This article will be my take on why functional programming matters, largely with a focus on the paper with the same name, authored by John Hughes in the year 1984. For me, I was blissfully unaware, for all intents and purposes, of the functional programming language paradigm until quite recently. But once I started learning about the powers that functional programming provides, I started feeling a responsibility of learning about it well!
 
-As one of the most trivially available sources of information, one need to only look at page of Object-oriented Programming on Wikipedia[2] to find critisizm for that paradigm.
+As one of the most trivially available sources of information, one need to only look at page of Object-oriented Programming on Wikipedia to find critisizm for that paradigm.
 
 ## Introduction
 We are introduced to the simple definition of functional programming as a program which consists entirely of functions. Using functions to contain language primitives at the bottom level, other higher order functions are composed of the ones at a lower level, until reaching the main function which is defined using some combination of all the lower functions.
