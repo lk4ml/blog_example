@@ -2,17 +2,22 @@
 layout: post
 title: Why Functional Programming Matters
 categories: random
+excerpt_separator: <!--more-->
 ---
 
-[![Lambda](/public/images/lambda.png)](/public/images/lambda.png)
+This article will be my take on why functional programming matters, largely with a focus on the paper with the same name, authored by John Hughes in the year 1984 - [Link to the paper](https://github.com/papers-we-love/papers-we-love/blob/master/languages-paradigms/functional_programming/why-functional-programming-matters.pdf).
+<!--more-->
 
-This article will be my take on why functional programming matters, largely with a focus on the paper with the same name, authored by John Hughes in the year 1984 - [Link to the paper](https://github.com/papers-we-love/papers-we-love/blob/master/languages-paradigms/functional_programming/why-functional-programming-matters.pdf). For me, I was blissfully unaware, for all intents and purposes, of the functional programming language paradigm until quite recently. But once I started learning about the powers that functional programming provides, I started feeling a responsibility of learning about it well!
+For me, I was blissfully unaware, for all intents and purposes, of the functional programming language paradigm until quite recently. But once I started learning about the powers that functional programming provides, I started feeling a responsibility of learning about it well!
 
 [![Progress of languages](/public/images/functional-progressive.png)](/public/images/functional-progressive.png)
 
 As one of the most trivially available sources of information, one need to only look at page of Object-oriented Programming on Wikipedia to find [critisizm for that paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming#Criticism).
 
 ## Introduction
+
+[![Lambda](/public/images/lambda.png)](/public/images/lambda.png)
+
 We are introduced to the simple definition of functional programming as a program which consists entirely of functions. Using functions to contain language primitives at the bottom level, other higher order functions are composed of the ones at a lower level, until reaching the main function which is defined using some combination of all the lower functions.
 
 Some special characteristics and advantages of functional programming are
