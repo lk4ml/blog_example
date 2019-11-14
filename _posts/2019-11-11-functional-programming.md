@@ -12,7 +12,7 @@ For me, I was blissfully unaware, for all intents and purposes, of the functiona
 
 [![Progress of languages](/public/images/functional-progressive.png)](/public/images/functional-progressive.png)
 
-As one of the most trivially available sources of information, one need to only look at page of Object-oriented Programming on Wikipedia to find [critisizm for that paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming#Criticism).
+As one of the most trivially available sources of information, one need to only look at page of Object-oriented Programming on Wikipedia to find [criticism for that paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming#Criticism).
 
 ## Introduction
 
