@@ -9,7 +9,7 @@ title: About
 
 I consider myself a tinkerer and problem solver. I have a strong attachment to Linux and DIY mindset. My idea of a weekend project would be building and flying a drone or fixing up a Raspberry Pi with my home electricals!
 
-Currently I am working on understanding JavaScript, React and Node. If you check out GitHub, you'll see me doing small projects.
+Currently I am working on understanding JavaScript, React and Node. If you check [me out on GitHub](https://github.com/mbtamuli), you'll see me doing small projects.
 
 I also like Golang and the occasional PHP. I run a lot of things using containers even for my local system just for fun!
 
