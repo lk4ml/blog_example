@@ -11,9 +11,9 @@ I consider myself a tinkerer and problem solver. I have a strong attachment to L
 
 Currently I am working on understanding JavaScript, React and Node. If you check [me out on GitHub](https://github.com/mbtamuli), you'll see me doing small projects.
 
-I also like Golang and the occasional PHP. I run a lot of things using containers even for my local system just for fun!
+I also like Golang and the occasional PHP. I run Chrome, VSCode and a few other tools I use as containers just for fun!
 
-If any of the above sounds and you'd like chat, drop an email at contact at mriyam dot dev.
+If any of the above sounds interesting and you'd like chat, drop an email at **contact** at **mriyam** dot **dev**.
 
 Here is my [Résumé]({{ site.baseurl }}/public/resume.pdf)
 Here is my [GPG Key]({{ site.baseurl }}/public/gpg.txt)
