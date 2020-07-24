@@ -10,7 +10,7 @@ Well, the approach is simple
 - setup a small script to do git push
 - have a systemd service
 - What? You thought there'd be a ton of steps? Sorry to dissapoint. :grin:
-- profit! :star-struck:
+- profit! :sunglasses:
 
 Create another file and do whatever you need `/usr/local/bin/backup_work.sh`
 ```
