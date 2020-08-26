@@ -22,14 +22,14 @@ I stored the entries in the `/etc/hosts` file on the ThinkPad laptop.
 Also, had to make sure the Dell XPS laptop was able to forward traffic and setup iptables to do NAT.
 
 ```bash
-# sudo sysctl -w net.ipv4.ip_forward=1
-# sudo iptables -t nat -A POSTROUTING -o gpd0 -j MASQUERADE
+$ sudo sysctl -w net.ipv4.ip_forward=1
+$ sudo iptables -t nat -A POSTROUTING -o gpd0 -j MASQUERADE
 ```
 
 Now, to actually route the traffic.
 
 ```bash
-# sudo ip route add 172.17.1.174 via 192.168.31.60
+$ sudo ip route add 172.17.1.174 via 192.168.31.60
 ```
 
 In this command, the IP `172.17.1.174` is the IP that we want to be routed through the VPN. The IP `192.168.31.60` is the IP address of the Dell XPS. Since I already have the entry in the `/etc/hosts` file, I am done.
