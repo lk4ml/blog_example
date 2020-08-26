@@ -35,3 +35,11 @@ $ sudo ip route add 172.17.1.174 via 192.168.31.60
 In this command, the IP `172.17.1.174` is the IP that we want to be routed through the VPN. The IP `192.168.31.60` is the IP address of the Dell XPS. Since I already have the entry in the `/etc/hosts` file, I am done.
 
 Browse to git.example.com, and voilà. Everything works as expected! :smile:
+
+
+References:
+These answers helped me understand what I needed to do. Also the man pages of `sysctl`, `iptables` and `ip route`
+
+1. [https://unix.stackexchange.com/questions/511967/how-to-route-traffic-through-vpn-only-accessible-within-vm-without-a-bridged-ad](https://unix.stackexchange.com/questions/511967/how-to-route-traffic-through-vpn-only-accessible-within-vm-without-a-bridged-ad)
+2. [https://superuser.com/questions/1061363/how-to-route-traffic-through-a-vpn-that-is-only-available-through-another-comput](https://superuser.com/questions/1061363/how-to-route-traffic-through-a-vpn-that-is-only-available-through-another-comput)
+3. [https://askubuntu.com/questions/907972/route-all-traffic-of-a-machine-through-another-within-a-subnet](https://askubuntu.com/questions/907972/route-all-traffic-of-a-machine-through-another-within-a-subnet)
