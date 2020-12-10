@@ -19,3 +19,5 @@ Here is my [Résumé]({{ site.baseurl }}/public/resume.pdf).
 Here is my [GPG Key]({{ site.baseurl }}/public/gpg.txt)
 
 Thanks for reading.
+
+[![GitHub Contributions](/public/images/contributions.png)](/public/images/contributions.png)
