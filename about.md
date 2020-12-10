@@ -11,9 +11,9 @@ I consider myself a tinkerer and problem solver. I have a strong attachment to L
 
 Currently I am working as a DevOps Engineer. My focus in on Golang and Kubernetes(administration as well as programming). If you check [me out on GitHub](https://github.com/mbtamuli), you'll see me doing small projects.
 
-If any of the above sounds interesting and you'd like chat, drop an email at **contact** at **mriyam** dot **dev**.
+If any of the above sounds interesting and you'd like chat, drop an email at **contact** at **mriyam** dot **dev** or select a slot to schedule a meeting - [calendar](https://calendar.x.ai/mriyam/virtual)
 
-Here is my [Résumé]({{ site.baseurl }}/public/resume.pdf)
+Here is my [Résumé]({{ site.baseurl }}/public/resume.pdf).  
 Here is my [GPG Key]({{ site.baseurl }}/public/gpg.txt)
 
 Thanks for reading.
