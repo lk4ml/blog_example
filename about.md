@@ -19,4 +19,4 @@ Here is my [GPG Key]({{ site.baseurl }}/public/gpg.txt)
 Thanks for reading.
 
 If you check [me out on GitHub](https://github.com/mbtamuli), you'll see me contributing to open source projects and tinkering with various personal projects.
-[![GitHub Contributions](https://github.com/mbtamuli)](/public/images/contributions.png)
+[![GitHub Contributions](/public/images/contributions.png)](https://github.com/mbtamuli)
