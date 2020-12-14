@@ -9,14 +9,15 @@ title: About
 
 I consider myself a tinkerer and problem solver. I have a strong attachment to Linux and DIY mindset. My idea of a weekend project would be building and flying a drone or fixing up a Raspberry Pi with my home electricals! I have worn many hats in the past and have worked as a web developer, a system administrator and a team lead for an open source project. 
 
-I am working as a DevOps Engineer with 4+ years of experience. Currently my focus in on Golang and Kubernetes. I have worked on with various clients to provide cloud-native solutions with programmable infrastructure using modern tools - Docker, Helm, Terraform, Prometheus, Grafana, Ansible, etc. I have contributed to and also led a team to drive the work on an open source project, [EasyEngine](https://easyengine.io/).
+I am working as a DevOps Engineer with 4+ years of experience. Currently my focus in on Golang and Kubernetes. I have worked with various clients to provide cloud-native solutions with programmable infrastructure using modern tools - Docker, Helm, Terraform, Prometheus, Grafana, Ansible, etc. I have contributed to and also led a team to drive the work on an open source project, [EasyEngine](https://easyengine.io/).
 
-If any of the above sounds interesting and you'd like chat, drop an email at **contact** at **mriyam** dot **dev** or select a slot [**on my calendar**](https://calendar.x.ai/mriyam/virtual) to schedule a meeting.
-
-Here is my [Résumé]({{ site.baseurl }}/public/resume.pdf).  
-Here is my [GPG Key]({{ site.baseurl }}/public/gpg.txt)
+If any of the above sounds interesting and you'd like to chat, drop an email at **contact** at **mriyam** dot **dev** or select a slot [**on my calendar**](https://calendar.x.ai/mriyam/virtual) to schedule a meeting.
 
 Thanks for reading.
 
+Here is my [Résumé]({{ site.baseurl }}/public/resume.pdf)
+
+Here is my [GPG Key]({{ site.baseurl }}/public/gpg.txt)
+
 If you check [me out on GitHub](https://github.com/mbtamuli), you'll see me contributing to open source projects and tinkering with various personal projects.
-[![GitHub Contributions](/public/images/contributions.png)](https://github.com/mbtamuli)
+[![GitHub Contributions]({{ site.baseurl }}/public/images/contributions.png)](https://github.com/mbtamuli)
